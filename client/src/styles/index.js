@@ -1,0 +1,1 @@
+export { default as GenStyling } from './GenStyling';
