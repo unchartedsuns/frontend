@@ -83,11 +83,14 @@ h6 {
 p {
   margin: 4px 0;
   color: #fff;
-  font-family: 'equinoxregular';
-  text-transform: lowercase;
+  /* font-family: 'equinoxregular';
+  text-transform: lowercase; */
+  /* font-family: Verdana, sans-serif; */
+  font-family: 'Lato', sans-serif;
   text-align: justify;
-  font-size: 14px;
-  font-weight: 200;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 hr {
@@ -105,11 +108,12 @@ ul {
   margin: 1em 0;
   padding: 0;
   color: #fff;
-  font-family: 'equinoxregular';
-  text-transform: lowercase;
+  /* font-family: 'equinoxregular';
+  text-transform: lowercase; */
+  font-family: 'Lato', sans-serif;
   text-align: justify;
-  font-size: 14px;
-  font-weight: 200;
+  font-size: 0.9rem;
+  font-weight: 400;
   list-style: none;
 }
 

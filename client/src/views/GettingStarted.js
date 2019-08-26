@@ -1,11 +1,12 @@
 import React from 'react';
 import { CenterPiece } from '../styles/GenStyling';
+import { TopHeader, ContentSlate, SecHeader } from '../styles/GetStartStyling';
 
 const GettingStarted = () => (
   <CenterPiece>
-    <h1>Beginner's Guide to Uncharted Suns</h1>
-    <div>
-      <h2>Getting Started</h2>
+    <TopHeader>Beginner's Guide to Uncharted Suns</TopHeader>
+    <ContentSlate>
+      <SecHeader>Getting Started</SecHeader>
       <hr/>
       <p>
         Uncharted Suns – or UcS – is an open source science fiction series where you – the members – get an
@@ -20,14 +21,14 @@ const GettingStarted = () => (
         If you are curious about what you can do and how to do it, visit our “How To” section.
       </p>
       <br/>
-      </div>
-      <div>
-        <h2>Your Homepage</h2>
-        <hr/>
-        <p>
-          The first place you’ll want to visit is your homepage. The quickest way to get to it is by clicking
-          the “Profile” icon after you log in. From there you can access all of the key features of the site.
-          Learn more about your homepage by visiting Your Homepage.
+    </ContentSlate>
+    <div>
+      <SecHeader>Your Homepage</SecHeader>
+      <hr/>
+      <p>
+        The first place you’ll want to visit is your homepage. The quickest way to get to it is by clicking
+        the “Profile” icon after you log in. From there you can access all of the key features of the site.
+        Learn more about your homepage by visiting Your Homepage.
       </p>
       <br/>
       <p>
@@ -38,7 +39,7 @@ const GettingStarted = () => (
       <br/>
     </div>
     <div>
-      <h2>Learning the Universe</h2>
+      <SecHeader>Learning the Universe</SecHeader>
       <hr/>
       <p>
         Before adding content of your own, it’s a good idea to peruse preexisting articles, such as the
@@ -72,7 +73,7 @@ const GettingStarted = () => (
       </ul>
     </div>
     <div>
-      <h2>Adding to the 'Verse</h2>
+      <SecHeader>Adding to the 'Verse</SecHeader>
       <hr/>
       <p>
         Once you’ve learned a little about the US universe, feel free to add content. Just make sure to keep
@@ -89,7 +90,7 @@ const GettingStarted = () => (
       <br/>
     </div>
     <div>
-      <h2>Becoming Canon</h2>
+      <SecHeader>Becoming Canon</SecHeader>
       <hr/>
       <p>
         Once you are satisfied with your content, it’s time to make it canon. Becoming canon is the highest
